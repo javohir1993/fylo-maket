@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #181F2B;
+  color: white;
+}
+
+.container {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.about-site {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.about-site-item {
+  width: 300px;
+  margin-left: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-site-item::before {
+  display: inline-block;
+  content: "";
+  width: 104px;
+  height: 104px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.accces-to-files::before {
+  background-image: url(../img/komp-tel.png);
+}
+
+.security::before {
+  background-image: url(../img/security.png);
+}
+
+.real-time::before {
+  background-image: url(../img/real-time.png);
+}
+
+.save-files::before {
+  background-image: url(../img/save-files.png);
+}
+
+.user-feedback {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  padding-top: 60px;
+  background-image: url("../img/quotation-marks.png");
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 79px 100px;
+  background-position: left top;
+}
+
+.user-feedback-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.user-feedback-item {
+  background-color: #202A3C;
+  width: 360px;
+  margin-right: 40px;
+  padding: 26px 40px;
+  border-radius: 5px;
+}
+
+.user-feedback-item-last {
+  margin-right: 0;
+}
+
+.user-feedback-text {
+  margin-bottom: 24px;
+}
+
+.user-information {
+  display: flex;
+
+}
+
+.user-information-photos {
+  border-radius: 50%;
+  width: 24px;
+}
+
+.user-information-text {
+  margin-left: 8px;
+}
+
+.user-information-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.user-information-workplace {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.registration-container {
+  background-color: #1B2330;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 84px;
+  padding: 42px 77px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0px #09111C;
+}
+
+.about-registration {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.input-email {
+  display: flex;
+}
+
+.input-email-place {
+  width: 480px;
+  /* height: 48px; */
+  padding: 16px 208px 16px 38px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+  margin-right: 30px;
+}
+
+.input-email-button {
+  padding: 16px 32px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+  background-color: #4ABED2;
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #0B1524;
+  padding: 10px 81px 97px 90px;
+}
+
+.footer-information {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-logo-fylo {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.footer-location {
+  display: flex;
+  width: 380px;
+  margin-right: 80px;
+}
+
+.footer-location::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/location-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.footer-location-text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.connection {
+  width: 175px;
+  margin-right: 120px;
+}
+
+.connection-type {
+  display: inline-block;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.connection-tel {
+  margin-bottom: 16px;
+}
+
+.connection-tel::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  background-image: url("../img/tel-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.connection-email::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  background-image: url("../img/email-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.pages-link {
+  margin: 0;
+  padding: 0;
+  margin-right: 80px;
+  list-style-type: none;
+}
+
+.pages-link-first {
+}
+
+.pages-link-item {
+  text-decoration: none;
+  line-height: 40px;
+  color: white
+}
+
+.social-networks {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-networks-item {
+  border-radius: 50%;
+  width: 32px;
+  height: 31px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+
+
+
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+
+
+  .feature-anywhere::before {
+    background-image: url("../img/komp-tel@2x.png");
+  }
+
+  .feature-security::before {
+    background-image: url("../img/security@2x.png");
+  }
+
+  .feature-collaboration::before {
+    background-image: url("../img/real-time@2x.png");
+  }
+
+  .feature-file-type::before {
+    background-image: url("../img/save-files@2x.png");
+  }
+
+  .user-feedbakc {
+    background-image: url("../img/quotation-marks@2x.png");
+  }
+
+  .footer-location {
+    background-image: url("../img/location-icon@2x.png");
+  }
+
+  .connection-tel {
+    background-image: url("../img/tel-icon@2x.png");
+  }
+
+  .connection-email {
+    background-image: url("../img/email-icon@2x.png");
+  }
+
+}
