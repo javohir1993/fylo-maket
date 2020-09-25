@@ -124,13 +124,16 @@ body {
   padding: 0;
 }
 
+.registration-part {
+  background-image: linear-gradient(to bottom, #181F2B 50%, #0B1524 50%);
+  padding-bottom: 84px;
+}
 
 .registration-container {
   background-color: #1B2330;
   max-width: 880px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 84px;
   padding: 42px 77px;
   border-radius: 5px;
   box-shadow: 10px 10px 15px 0px #09111C;
